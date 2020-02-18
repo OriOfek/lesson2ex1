@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView iv;
     Random rnd;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         switch (i)
         {
             case 1:
-
+                iv.setImageIcon(R.drawable.);
                 break;
 
         }
