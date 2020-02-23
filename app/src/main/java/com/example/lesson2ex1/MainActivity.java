@@ -30,14 +30,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void change(View view) {
         i=rnd.nextInt(3);
+        i=i+1;
         btn.setText(String.valueOf(i));
-        switch (i)
-        {
+        switch (i) {
             case 1:
-                iv.setImageIcon(R.drawable.);
+                iv.setImageResource(R.drawable.ant);
                 break;
+            case 2:
+                iv.setImageResource(R.drawable.elephant);
+                break;
+            case 3:
+                iv.setImageResource(R.drawable.cat);
+                break;
+        }
 
-        }
-        }
+
     }
 }
+
