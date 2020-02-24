@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setText(String.valueOf(i));
         switch (i) {
             case 1:
-                iv.setImageResource(R.drawable.ant);
+                iv.setImageResource(R.drawable.frog);
                 break;
             case 2:
                 iv.setImageResource(R.drawable.elephant);
