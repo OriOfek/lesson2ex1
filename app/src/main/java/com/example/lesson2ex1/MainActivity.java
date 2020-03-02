@@ -34,12 +34,15 @@ public class MainActivity extends AppCompatActivity {
         btn.setText(String.valueOf(i));
         switch (i) {
             case 1:
+                //one is frog
                 iv.setImageResource(R.drawable.frog);
                 break;
             case 2:
+                //casw2 is elephant
                 iv.setImageResource(R.drawable.elephant);
                 break;
             case 3:
+                //case 3 is cat
                 iv.setImageResource(R.drawable.cat);
                 break;
         }
